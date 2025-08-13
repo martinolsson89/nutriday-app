@@ -72,3 +72,20 @@ npm install react-router-bootstrap
 npm install react-bootstrap-icons
 npm install fuse.js
 ```
+
+## Troubleshoot
+
+If the SPA launch fails because the client’s dependencies weren’t installed correctly.
+1. Switch to an LTS version of Node (e.g., 18 or 20)
+2. Completely reinstall dependencies
+```sh
+cd teamorange.client
+rm -rf node_modules package-lock.json
+npm cache clean --force    # optional but helpful
+npm install                # installs Rollup’s platform binary
+```
+```sh
+npm run dev
+```
+
+
