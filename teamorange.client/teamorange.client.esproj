@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.271090-alpha">
+  <PropertyGroup>
+    <StartupCommand>npm run dev</StartupCommand>
+    <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="src\components\CalorieTracker.jsx" />
+    <None Remove="src\components\Carousel.jsx" />
+    <None Remove="src\components\Home buttons.jsx" />
+    <None Remove="src\components\Home buttons.ts" />
+    <None Remove="src\components\homebutton.ts" />
+    <None Remove="src\components\NutrientBreakdown.jsx" />
+    <None Remove="src\components\NutrientSlideshow..jsx" />
+    <None Remove="src\components\NutrientSlideshow.jsx" />
+    <None Remove="src\components\NutritionTracker.jsx" />
+    <None Remove="src\components\ProductView.jsx" />
+    <None Remove="src\img\carb1.jpg" />
+    <None Remove="src\img\carb2.jpg" />
+    <None Remove="src\img\fat1.jpg" />
+    <None Remove="src\img\fat2.jpg" />
+    <None Remove="src\img\nutrient.jpg" />
+    <None Remove="src\img\product.png" />
+    <None Remove="src\img\protein1.jpg" />
+    <None Remove="src\img\protein2.jpg" />
+    <None Remove="src\img\sök.jpg" />
+  </ItemGroup>
+</Project>

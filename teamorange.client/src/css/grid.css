@@ -1,0 +1,122 @@
+.themed-grid-head-col {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: #FDAA01;
+    border: 1px solid var( --color2);
+    font-family: var(--Font3);
+    font-size: x-large;
+}
+
+.themed-grid-col {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: #D8CFC4;
+    border: 1px solid var( --color2);
+    font-family: var(--Font3);
+}
+
+/* Hover effect */
+.product-item:hover .themed-grid-col {
+    background-color: white;
+}
+
+/* Selected item */
+.selected-product .themed-grid-col {
+    background-color: lightgray;
+    border: 3px solid var( --color5);
+}
+
+.themed-container {
+    padding: .75rem;
+    margin-bottom: 1.5rem;
+    background-color: var(--color5);
+    border: 1px solid var( --color2);
+    font-family: var(--Font2);
+}
+
+
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../fonts/Pacifico-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Handlee';
+    src: url('../fonts/Handlee-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Reenie';
+    src: url('../fonts/ReenieBeanie-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Passion';
+    src: url('../fonts/PassionsConflict-Regular.ttf');
+}
+
+
+.home {
+    font-family: var(--Font3);
+}
+
+.footer {
+    font-family: var(--Font3);
+}
+
+.about {
+    font-family: var(--Font3);
+}
+
+.aboutheader {
+    font-family: var(--Font3);
+}
+
+.total {
+    font-family: var(--Font3);
+}
+
+.famous {
+    font-family: var(--Font3);
+}
+
+.groups {
+    font-family: var(--Font3);
+    color: var(--color3);
+    display: flex;
+    align-items: center;
+}
+
+
+/* function that wasn't completed
+    .form-label {
+    font-family: var(--Font3);
+    font-size: large;
+    color: var(--color6);
+}
+
+.form-control {
+    font-family: var(--Font3);
+    font-size: large;
+    color: var(--color6);
+}
+
+ .slideshow {
+    position: relative;
+    margin-top: 10px;
+}
+
+.slideshow-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+    /*.contact-form, .support-form {
+    background-color: rgba(255, 165, 0, 0.45);
+    padding: 5px;
+    border-radius: 3px;
+    border: 3px solid #D8CFC4;
+    color: #F5F5DC;
+}
+    */

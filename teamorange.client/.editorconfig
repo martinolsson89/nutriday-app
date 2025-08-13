@@ -1,0 +1,15 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline at the end of the file
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+
+# Settings for JavaScript and JSX files
+[*.{js,jsx}]
+indent_style = space
+indent_size = 2
