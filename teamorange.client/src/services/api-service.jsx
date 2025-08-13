@@ -31,11 +31,10 @@ class ApiService {
             alert(`Failed to recieved data from server: ${err.message}`);
         }
     }
-  // 
   // https://localhost:7140
-  // https://teamorangeserver20240828151550.azurewebsites.net/
+  // nutriday-gffaahbbarcvf6fj.westeurope-01.azurewebsites.net
     #_buildUrl(endpoint, params = {}) {
-      const url = new URL(endpoint, 'http://localhost:5019'); // Base URL is set here
+      const url = new URL(endpoint, 'https://nutriday-gffaahbbarcvf6fj.westeurope-01.azurewebsites.net'); // Base URL is set here
         Object.keys(params).forEach(key => url.searchParams.append(key, params[key]));
         return url.toString();
     }

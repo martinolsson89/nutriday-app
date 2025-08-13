@@ -14,7 +14,11 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowFrontend",
         policy =>
         {
-            policy.WithOrigins("https://localhost:5173")
+            policy.WithOrigins
+            (
+                "https://localhost:5173",
+                "https://thankful-grass-0f5e9ee03.2.azurestaticapps.net"
+            )
                 .AllowAnyHeader()
                 .AllowAnyMethod();
         });
